@@ -77,12 +77,12 @@
 #endif
 
 // Return a name of platform, if determined, otherwise - an empty string
-std::string get_platform() {
+inline std::string get_platform() {
     return std::string(PLATFORM_NAME);
 }
 
 // Return a name of compiler, if determined, otherwise - an empty string
-std::string get_compiler() {
+inline std::string get_compiler() {
     return std::string(COMPILER_NAME);
 }
 
