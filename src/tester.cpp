@@ -13,6 +13,7 @@ int main(int argc, char **argv)
     std::cout << std::endl << std::endl;
 
     std::cout << "Hello World from " << get_platform() << " with compiler " << get_compiler() << std::endl;
+    std::cout << "Version 1" << std::endl;
 
     return 0;
 }

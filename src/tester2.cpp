@@ -9,6 +9,7 @@ int main(int argc, char **argv)
     std::cout << maker.get_input() << std::endl << std::endl;
 
     std::cout << say_hello() << std::endl;
+    std::cout << "Version 2" << std::endl;
 
     return 0;
 }

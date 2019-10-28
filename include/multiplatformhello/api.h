@@ -28,6 +28,7 @@
 	/* Microsoft Visual Studio. --------------------------------- */
 #define COMPILER_NAME "msvc"
 #define COMPILER 2
+#pragma warning(disable: 4251) // class 'A<T>' needs to have dll-interface to be used by clients of class 'B' 
 #elif defined(__PGI)
 	/* Portland Group PGCC/PGCPP. ------------------------------- */
 #define COMPILER_NAME "portland"
