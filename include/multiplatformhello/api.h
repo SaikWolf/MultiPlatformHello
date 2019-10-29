@@ -73,7 +73,7 @@
 #define PLATFORM_NAME "solaris" // Oracle Solaris, Open Indiana
 #define PLATFORM 7
 #else
-#define PLATFORM_NAME NULL
+#define PLATFORM_NAME ""
 #define PLATFORM 0
 #endif
 
